@@ -21,6 +21,8 @@ qt_add_qml_module(apptext_editor
     URI text_editor
     QML_FILES
         Main.qml
+    SOURCES
+        test.h test.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
